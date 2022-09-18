@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    tools:context="com.example.itsplit.IntroFragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/intro2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/poppins_700"
+                android:text="Split Your All Types of\nBills with Friends."
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/poppins_300"
+                android:text="One place for all types of bill and\nsplit them into members."
+                android:textColor="@color/white" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="50.7dp"
+                    android:background="#80F5FFA8"/>
+                <View
+                    android:layout_width="19dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#F5FFA8"
+                    android:layout_marginHorizontal="5sp"/>
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="50.7dp"
+                    android:background="#80F5FFA8"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

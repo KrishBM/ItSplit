@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+
+    tools:context="com.example.itsplit.IntroFragment3">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:scaleType="fitCenter"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/poppins_700"
+                android:text=" \n"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins_500"
+                    android:text="Itsplit"
+                    android:textColor="#F5FFA8"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="12dp"
+                    android:fontFamily="@font/poppins_300"
+                    android:text=" splits your bill easily Stingy friends.\n"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="51dp"
+                    android:background="#4DF5FFA8"/>
+                <View
+                    android:layout_width="8dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="50.7dp"
+                    android:background="#80F5FFA8"
+                    android:layout_marginHorizontal="5sp"/>
+                <View
+                    android:layout_width="19dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#F5FFA8"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/intro2_1" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/intro2_2" />
+</RelativeLayout>
+</FrameLayout>
