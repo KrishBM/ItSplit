@@ -1,4 +1,4 @@
-package com.example.itsplit;
+package com.itish.itsplit;
 
 import android.os.Bundle;
 
@@ -10,12 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.itsplit.R;
+import com.itish.itsplit.R;
 
 
-public class IntroFragment2 extends Fragment {
+public class IntroFragment1 extends Fragment {
 
-    public IntroFragment2() {
+    public IntroFragment1() {
 
     }
 
@@ -27,6 +27,6 @@ public class IntroFragment2 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_intro2, container, false);
+        return inflater.inflate(R.layout.fragment_intro1, container, false);
     }
 }

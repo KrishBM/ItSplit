@@ -1,4 +1,4 @@
-package com.example.itsplit;
+package com.itish.itsplit;
 
 import android.annotation.SuppressLint;
         import android.content.Context;
@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
         import androidx.annotation.RequiresApi;
         import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.itsplit.R;
+import com.itish.itsplit.R;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.List;

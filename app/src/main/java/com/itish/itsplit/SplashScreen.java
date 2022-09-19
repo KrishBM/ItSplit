@@ -1,4 +1,4 @@
-package com.example.itsplit;
+package com.itish.itsplit;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.itsplit.R;
+import com.itish.itsplit.R;
 
 public class SplashScreen extends AppCompatActivity {
     private static int SPLASH_SCREEN_TIME_OUT=2000;

@@ -1,4 +1,4 @@
-package com.example.itsplit;
+package com.itish.itsplit;
 
 import android.os.Parcel;
 import android.os.Parcelable;

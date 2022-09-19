@@ -1,4 +1,4 @@
-package com.example.itsplit;
+package com.itish.itsplit;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.itsplit.R;
+import com.itish.itsplit.R;
 import com.google.android.material.button.MaterialButton;
 
 public class IntroductorySrn extends AppCompatActivity {

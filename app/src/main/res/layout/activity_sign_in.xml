@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="com.example.itsplit.SignIn"
+    tools:context="com.itish.itsplit.SignIn"
     android:background="@color/background_app">
     <LinearLayout
         android:layout_width="match_parent"
@@ -169,6 +169,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+<!--                <com.google.android.gms.common.SignInButton-->
+<!--                    android:id="@+id/signInWithGoogle"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginHorizontal="20dp"-->
+<!--                    android:background="@drawable/signup_border"-->
+<!--                    android:text="Sign In with Google"-->
+<!--                    android:fontFamily="@font/poppins_400"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    android:textColor="#F2F2F2"-->
+<!--                    android:textSize="15sp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    app:backgroundTint="#F2F2F2" />-->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/signInWithGoogle"
                     android:layout_width="match_parent"
